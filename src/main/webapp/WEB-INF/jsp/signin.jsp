@@ -6,9 +6,9 @@
 <sf:form action="signin" modelAttribute="userForm" method="post">
     <table>
         <tr>
-            <sf:errors path="phone"/>
             <td>Phone number:</td>
             <td><sf:input path="phone"/></td>
+            <td><sf:errors path="phone"/></td>
         </tr>
         <tr>
             <td>Code:</td>
